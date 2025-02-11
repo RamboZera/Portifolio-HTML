@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+    <link rel="stylesheet" href="css/estilo.css" />
+
+      <head>
+        <meta charset="UTF-8">
+        <title>Area de cadastro</title>
+        </head>
+
+        <img src="images.jpg" >
+
+            <body>
+
+                <form action="index2.html">
+                    <div class="container">
+                      <h1>Me chamo: Gustavo Rambo</h1>
+                      <h1>Tenho 19 Anos</h1>
+                      <h1>Curso: Analise e desenvolvimento de sistemas</h1>
+                      <h1>Faça sua inscrição No Portifolio</h1>
+                      <hr>
+                  
+                      <label for="Nome"><b>Nome</b></label>
+                      <input type="text" placeholder="Digite seu nome" name="nome" id="nome" required> <br>
+                  
+                      <label for="Tel"><b>Número de Telefone</b></label>
+                      <input type="text" placeholder="Digite seu número" name="number" id="number" required> <br>
+
+                      <label for="Rg"><b>Número do seu RG</b></label>
+                      <input type="text" placeholder="Digite seu rg" name="number" id="number" required> <br>
+
+                      <label for="Cpf"><b>Número do seu CPF</b></label>
+                      <input type="text" placeholder="Digite seu cpf" name="number" id="number" required> <br>
+
+                      <label for="Email"><b>Email</b></label>
+                      <input type="text" placeholder="Digite seu email" name="email" id="text" required> <br>
+                  
+                      <label for="Senha"><b>Senha do Email</b></label>
+                      <input type="password" placeholder="Digite sua senha " name="senha" id="Senha" required> <br>
+                      <hr>
+                  
+                      <p>Está ciente dos seus dados serem cadastrados <a href="#">Termos e Privacidades</a>.</p>
+                      <button type="submit" class="registerbtn">Inscrever-se </button>
+
+            </body>
+
+</html>
+
+
+CSS
+
+body {
+    background-color: rgb(255, 0, 0);
+    text-align: center;
+    border-color: rgba(0, 0, 0, 0.37);
+    border-style: ridge;
+    border-radius: 90px;
+}
+
+h1{
+    color: black;
+    text-align: center;
+    border-radius: 40px ;
+    border-style: none;
+    border-radius: 40px;
+}
+
+*img{
+    margin: 12px 0 22px 0;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  padding: 55px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 1203px;
+  padding: 09px;
+  margin: 12px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #04bbc2;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ffffff;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  
+  
+  margin-bottom: 21px;
+
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #00c8fa;
+  color: rgb(255, 255, 255);
+  padding: 16px 20px;
+  margin: 68px 0;
+  border: none;
+  cursor: pointer;
+  width: 200px;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+
+
+
+
+
+
+
+
